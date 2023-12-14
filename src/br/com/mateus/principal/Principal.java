@@ -1,12 +1,16 @@
 package br.com.mateus.principal;
 import br.com.mateus.model.CadastroCliente;
 import br.com.mateus.model.ConsultaCliente;
+
+import java.util.InputMismatchException;
 import java.util.Scanner;
 import static br.com.mateus.situacao.EtapaVenda.situacaoVenda;
 
 public class Principal {
     public static void main(String[] args) {
-        Scanner leitura = new Scanner(System.in);
+       try {
+           Scanner leitura = new Scanner(System.in);
+
             int opcao;
 
             do {
@@ -36,6 +40,9 @@ public class Principal {
              }
 
         }while (opcao != 4);
+       }catch (InputMismatchException e){
+           System.out.println("Entrada inválida. Por favor, insira um valor numérico.");
 
+       }
     }
 }

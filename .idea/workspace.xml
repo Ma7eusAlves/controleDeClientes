@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="19ce2bb8-0d90-4b5c-ae86-6cd8d978d30f" name="Changes" comment="Updade projeto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/mateus/model/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/mateus/model/CadastroCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/mateus/model/ConsultaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/mateus/model/ConsultaCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/mateus/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/mateus/principal/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
