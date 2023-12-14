@@ -1,4 +1,4 @@
-package br.com.mateus.dados;
+package br.com.mateus.model;
 
 public class ConsultaCliente {
 

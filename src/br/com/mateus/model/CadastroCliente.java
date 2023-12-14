@@ -1,8 +1,8 @@
-package br.com.mateus.dados;
+package br.com.mateus.model;
 
 public class CadastroCliente {
 
     public static void cadastrarCliente(){
-        System.out.println("Chamando cadastro");
+
     }
 }

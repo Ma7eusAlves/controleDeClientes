@@ -1,11 +1,10 @@
 package br.com.mateus.principal;
-import br.com.mateus.dados.Cliente;
+import br.com.mateus.model.Cliente;
 import java.util.ArrayList;
-import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
-import static br.com.mateus.dados.CadastroCliente.cadastrarCliente;
-import static br.com.mateus.dados.ConsultaCliente.consulta;
+import static br.com.mateus.model.CadastroCliente.cadastrarCliente;
+import static br.com.mateus.model.ConsultaCliente.consulta;
 import static br.com.mateus.situacao.EtapaVenda.situacaoVenda;
 
 public class Principal {
