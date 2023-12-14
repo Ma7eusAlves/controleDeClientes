@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19ce2bb8-0d90-4b5c-ae86-6cd8d978d30f" name="Changes" comment="">
+    <list default="true" id="19ce2bb8-0d90-4b5c-ae86-6cd8d978d30f" name="Changes" comment="Updade projeto">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mateus/dados/CadastroCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mateus/dados/ConsultaCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/mateus/dados/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/mateus/dados/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/mateus/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/mateus/principal/Principal.java" afterDir="false" />
@@ -25,9 +28,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ma7eusAlves&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="76ea7a34-8f3c-4e62-8789-fa0271544b2c" />
+        <option name="url" value="https://github.com/Ma7eusAlves/controleDeClientes.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ZVdGwU8pDSUcAtekDrNOpToE7Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,6 +55,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main"
   }
 }]]></component>
@@ -70,6 +88,19 @@
       <option name="presentableId" value="Default" />
       <updated>1702511090183</updated>
     </task>
+    <task id="LOCAL-00001" summary="updade projeto">
+      <option name="closed" value="true" />
+      <created>1702516589759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702516589759</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updade projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="updade projeto" />
   </component>
 </project>

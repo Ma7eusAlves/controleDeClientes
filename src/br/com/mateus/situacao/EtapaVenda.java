@@ -1,13 +1,9 @@
 package br.com.mateus.situacao;
 
 public class EtapaVenda {
-    private String situacaoVenda;
 
-    public String getSituacaoVenda() {
-        return situacaoVenda;
+    public static void situacaoVenda(){
+        System.out.println("Conferindo Cliente Ativo");
     }
 
-    public void setSituacaoVenda(String situacaoVenda) {
-        this.situacaoVenda = situacaoVenda;
-    }
 }
