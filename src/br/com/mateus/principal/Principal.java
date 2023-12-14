@@ -2,7 +2,6 @@ package br.com.mateus.principal;
 import br.com.mateus.model.CadastroCliente;
 import br.com.mateus.model.ConsultaCliente;
 import br.com.mateus.situacao.EtapaVenda;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import static br.com.mateus.situacao.EtapaVenda.situacaoVenda;
@@ -49,7 +48,6 @@ public class Principal {
                      System.out.println("Entrada inválida. Por favor, insira um valor numérico.");
 
              }
-                  leitura.close();
 
         }while (opcao != 4);
 
