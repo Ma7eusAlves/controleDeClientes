@@ -4,7 +4,6 @@ import br.com.mateus.model.ConsultaCliente;
 import br.com.mateus.situacao.EtapaVenda;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import static br.com.mateus.situacao.EtapaVenda.situacaoVenda;
 
 public class Principal {
     public static void main(String[] args) {
