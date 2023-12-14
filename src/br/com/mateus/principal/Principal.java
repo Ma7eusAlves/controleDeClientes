@@ -1,7 +1,4 @@
 package br.com.mateus.principal;
-import br.com.mateus.model.Cliente;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 import static br.com.mateus.model.CadastroCliente.cadastrarCliente;
 import static br.com.mateus.model.ConsultaCliente.consulta;
@@ -10,8 +7,6 @@ import static br.com.mateus.situacao.EtapaVenda.situacaoVenda;
 public class Principal {
     public static void main(String[] args) {
         Scanner leitura = new Scanner(System.in);
-            List<Cliente> dadosCliente = new ArrayList<>();
-
             int opcao;
 
             do {
