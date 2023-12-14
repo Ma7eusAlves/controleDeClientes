@@ -1,7 +1,7 @@
 package br.com.mateus.principal;
+import br.com.mateus.model.CadastroCliente;
+import br.com.mateus.model.ConsultaCliente;
 import java.util.Scanner;
-import static br.com.mateus.model.CadastroCliente.cadastrarCliente;
-import static br.com.mateus.model.ConsultaCliente.consulta;
 import static br.com.mateus.situacao.EtapaVenda.situacaoVenda;
 
 public class Principal {
@@ -10,8 +10,9 @@ public class Principal {
             int opcao;
 
             do {
-
-                System.out.println("Cadastro de Clientes");
+                System.out.println("---------------------------------");
+                System.out.println("Sistema para controle de clientes");
+                System.out.println("---------------------------------");
                 System.out.println("Escolha uma das opções:");
                 System.out.println("1 - Cadastrar cliente");
                 System.out.println("2 - Consultar cliente");
@@ -22,10 +23,10 @@ public class Principal {
 
              switch (opcao){
                  case 1:
-                     cadastrarCliente();
+                     CadastroCliente.cadastrarCliente();
                      break;
                  case 2:
-                     consulta();
+                     ConsultaCliente.exibirClientesCadastrados(CadastroCliente.getDadosCliente());
                      break;
                  case 3:
                      situacaoVenda();
