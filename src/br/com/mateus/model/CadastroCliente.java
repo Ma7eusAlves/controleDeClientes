@@ -16,8 +16,9 @@ public class CadastroCliente {
         var telefone = leitura.nextLine();
         Cliente novoCliente = new Cliente(nome, email, telefone);
         dadosCliente.add(novoCliente);
+
     }
-    public static List<Cliente> getDadosCliente() {
+        public static List<Cliente> getDadosCliente() {
         return dadosCliente;
     }
 
