@@ -10,6 +10,8 @@ public class ConsultaCliente {
             System.out.println("E-mail: " + cliente.getEmail());
             System.out.println("Telefone: " + cliente.getTelefone());
             System.out.println("-----");
+            System.out.println("0 - Voltar ao menu principal");
+
         }
     }
 
