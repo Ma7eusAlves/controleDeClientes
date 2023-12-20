@@ -2,7 +2,7 @@ package br.com.mateus.menu;
 
 public class MenuAplicacao {
 
-    public void exibirMenuPrincipal() {
+    public static void exibirMenuPrincipal() {
         System.out.println("---------------------------------");
         System.out.println("Sistema para controle de clientes");
         System.out.println("---------------------------------");
@@ -13,7 +13,7 @@ public class MenuAplicacao {
         System.out.println("4 - Sair");
     }
 
-    public void exibirMenuEtapaVenda() {
+    public static void exibirMenuEtapaVenda() {
         System.out.println("--------------------------");
         System.out.println("Menu da Etapa de Venda");
         System.out.println("--------------------------");
@@ -22,5 +22,6 @@ public class MenuAplicacao {
         System.out.println("2 - Fechar venda");
         System.out.println("3 - Recusar venda");
         System.out.println("0 - Voltar ao menu principal");
+
     }
 }

@@ -32,16 +32,18 @@ public class Principal {
                  case 1:
                      CadastroCliente.cadastrarCliente();
                      etapaVenda.iniciarVenda();
+                     System.out.println("0 - Voltar ao menu principal");
                      int voltar = leitura.nextInt();
                      if (voltar == 0) {
-                         opcao = 0; // Encerra o programa
+                         opcao = 0; // Volta o menu
                      }
                      break;
                  case 2:
                      ConsultaCliente.exibirClientesCadastrados(CadastroCliente.getDadosCliente());
-                        voltar = leitura.nextInt();
+                     System.out.println("0 - Voltar ao menu principal");
+                     voltar = leitura.nextInt();
                      if (voltar == 0) {
-                         opcao = 0; // Encerra o programa
+                         opcao = 0; // Volta o menu
                      }
                      break;
                  case 3:
